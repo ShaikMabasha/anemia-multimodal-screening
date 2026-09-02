@@ -1,0 +1,21 @@
+# Model checkpoints (too large for git; host separately, see README)
+*.pt
+*.pth
+
+# Regeneratable large manifests (keep small reference reports, not full CSVs, if size is a concern)
+# Comment out any of these you DO want tracked for reproducibility
+*_manifest.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+venv/
+.venv/
+*.egg-info/
