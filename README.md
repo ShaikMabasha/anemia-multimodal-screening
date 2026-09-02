@@ -81,7 +81,7 @@ python explainability_calibration/calibrate_fusion_model.py kfold_manifest.csv <
 
 This project uses only publicly available, previously de-identified
 datasets. No data is redistributed in this repository; see the paper's
-*Data Availability* statement and Methods §3.1 for links to each source
+*Data Availability* statement and Methods 3.1 for links to each source
 (AneRBC, CP-AnemiC, and the underlying Mendeley Data repositories for the
 conjunctiva/nail/palm imaging sources).
 
@@ -98,7 +98,7 @@ NVIDIA RTX A6000.
 
 If you use this code, please cite:
 ```bibtex
-@article{TODO_citekey,
+@article{MabashaShaik,
   title   = {Multimodal Deep Learning for Non-Invasive Anemia Screening: A
              Leakage-Audited, Externally Validated, and Calibrated Framework},
   author  = {Shaik, Mabasha and Gupta, Sumit and Kancharagunta, Kishan Babu},
